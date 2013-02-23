@@ -1,0 +1,25 @@
+<%= form_for(@cardset) do |f| %>
+  <% if @cardset.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@cardset.errors.count, "error") %> prohibited this cardset from being saved:</h2>
+
+      <ul>
+      <% @cardset.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :belongs_to %><br />
+    <%= f.text_field :belongs_to %>
+  </div>
+  <div class="field">
+    <%= f.label :privacy %><br />
+    <%= f.check_box :privacy %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

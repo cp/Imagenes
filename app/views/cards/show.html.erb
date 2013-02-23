@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Belongs to:</b>
+  <%= @card.belongs_to %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%= @card.type %>
+</p>
+
+<p>
+  <b>Caption:</b>
+  <%= @card.caption %>
+</p>
+
+<p>
+  <b>Mediasrc:</b>
+  <%= @card.mediasrc %>
+</p>
+
+
+<%= link_to 'Edit', edit_card_path(@card) %> |
+<%= link_to 'Back', cards_path %>

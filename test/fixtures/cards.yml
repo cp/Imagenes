@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  belongs_to: 
+  type: 
+  caption: MyString
+  mediasrc: MyString
+
+two:
+  belongs_to: 
+  type: 
+  caption: MyString
+  mediasrc: MyString

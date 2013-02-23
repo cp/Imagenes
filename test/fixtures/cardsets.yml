@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  belongs_to: 
+  privacy: false
+
+two:
+  belongs_to: 
+  privacy: false
