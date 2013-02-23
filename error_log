@@ -1,0 +1,14 @@
+[14-Jan-2013 14:33:30 America/New_York] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/colbyale/public_html/imagenes/view.php on line 22
+[14-Jan-2013 14:33:41 America/New_York] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/colbyale/public_html/imagenes/view.php on line 22
+[15-Jan-2013 18:01:26 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/colbyale/public_html/imagenes/view.php on line 14
+[15-Jan-2013 18:01:29 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/colbyale/public_html/imagenes/view.php on line 14
+[17-Jan-2013 16:31:53 America/New_York] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/colbyale/public_html/imagenes/view.php on line 22
+[17-Jan-2013 16:31:55 America/New_York] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/colbyale/public_html/imagenes/view.php on line 22
+[17-Jan-2013 16:32:00 America/New_York] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/colbyale/public_html/imagenes/view.php on line 22
+[17-Jan-2013 16:39:57 America/New_York] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/colbyale/public_html/imagenes/view.php on line 8
+[17-Jan-2013 16:39:58 America/New_York] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/colbyale/public_html/imagenes/view.php on line 8
+[17-Jan-2013 16:45:46 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/colbyale/public_html/imagenes/view.php on line 20
+[17-Jan-2013 16:46:02 America/New_York] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/colbyale/public_html/imagenes/view.php on line 22
+[17-Jan-2013 16:46:10 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/colbyale/public_html/imagenes/view.php on line 20
+[17-Jan-2013 16:55:02 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/colbyale/public_html/imagenes/view.php on line 17
+[17-Jan-2013 16:55:02 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/colbyale/public_html/imagenes/view.php on line 17
