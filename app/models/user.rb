@@ -1,5 +1,7 @@
 class User < ActiveRecord::Base
-  attr_accessible :school_id, :type, :username, :email, :password_hash, :password_salt, :password, :password_confirmation, :username
+  attr_accessible :school_id, :user_type, :username, :email, :password_hash, :password_salt, :password, :password_confirmation, :username
+  
+  has_many :cardsets
   
   attr_accessor :password
   before_save :encrypt_password

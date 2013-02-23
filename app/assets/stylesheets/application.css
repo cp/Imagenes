@@ -1,5 +1,11 @@
+
+
 /*
  *= require 'bootstrap/loader'
  *= require_self
  *= require_tree .
 */
+
+body {
+	padding-top: 50px;
+}

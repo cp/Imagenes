@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130223085757) do
+ActiveRecord::Schema.define(:version => 20130223103246) do
 
   create_table "cards", :force => true do |t|
     t.integer  "belongs_to"
@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(:version => 20130223085757) do
   end
 
   create_table "users", :force => true do |t|
-    t.string   "type"
+    t.string   "user_type"
     t.string   "username"
     t.integer  "school_id"
     t.datetime "created_at",    :null => false

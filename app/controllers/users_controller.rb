@@ -1,5 +1,10 @@
 class UsersController < ApplicationController
 
+
+	def user
+    @user = User.find_by_username(params[:username])
+  end
+
   # GET /users/1
   # GET /users/1.json
   def show
