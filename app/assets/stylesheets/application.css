@@ -9,3 +9,9 @@
 body {
 	padding-top: 50px;
 }
+
+#flash {
+	border: 1px solid #5a5a5a;
+	padding: 5px;
+	margin-bottom: 20px;
+}

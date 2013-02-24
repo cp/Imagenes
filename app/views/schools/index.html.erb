@@ -1,0 +1,17 @@
+<h1>Select Your School</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Location</th>
+  </tr>
+
+<% @schools.each do |school| %>
+  <tr>
+    <td><%= link_to school.name, "/schools/" + school.id.to_s %></td>
+    <td><%= school.location %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
