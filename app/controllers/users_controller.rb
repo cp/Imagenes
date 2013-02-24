@@ -1,9 +1,11 @@
 class UsersController < ApplicationController
 
 
+	skip_before_filter :require_login, :only => [:show]
+
+
 	def user
     @user = User.find_by_username(params[:username])
-  end
 
   # GET /users/1
   # GET /users/1.json
@@ -75,4 +77,5 @@ class UsersController < ApplicationController
       format.json { head :no_content }
     end
   end
+end
 end
