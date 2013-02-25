@@ -15,4 +15,4 @@
 /tmp
 
 # Ignore application.rb because of API keys.
-config/application.rb
+/config/application.rb
