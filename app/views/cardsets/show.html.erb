@@ -1,15 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Belongs to:</b>
-  <%= @cardset.belongs_to %>
-</p>
-
-<p>
-  <b>Privacy:</b>
-  <%= @cardset.privacy %>
-</p>
+<h1>
+  <%= @cardset.title %>
+</h1>
 
 
-<%= link_to 'Edit', edit_cardset_path(@cardset) %> |
-<%= link_to 'Back', cardsets_path %>
+<%= link_to 'Edit', edit_cardset_path(@cardset) %>

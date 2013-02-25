@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130224022221) do
+ActiveRecord::Schema.define(:version => 20130225045450) do
 
   create_table "cards", :force => true do |t|
     t.integer  "belongs_to"
@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(:version => 20130224022221) do
     t.boolean  "privacy"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "title"
   end
 
   create_table "schools", :force => true do |t|

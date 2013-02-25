@@ -19,6 +19,13 @@
           <div class="nav-collapse collapse">
             <ul class="nav pull-right">
             	<% if current_user %>
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sets <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/cardsets/new">New Set</a></li>
+                  <li><a href="/cardsets">Manage Sets</a></li>
+                </ul>
+                </li>
               	<li><%= link_to "My Profile", current_user.username, { :controller => "users", :action => "user", :username => current_user.username.downcase} %></li>
               	<li><%= link_to "Log out", log_out_path %></li>
               <% else %>
@@ -48,5 +55,6 @@
         <p>Imágenes(RoR) v.0.5</p>
       </footer>
     </div>
+        <script src="../assets/js/bootstrap-dropdown.js"></script>
 </body>
 </html>
