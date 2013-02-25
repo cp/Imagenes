@@ -9,6 +9,7 @@ gem 'mysql2'
 gem 'bcrypt-ruby', :require => 'bcrypt'
 gem 'less-rails-bootstrap'
 gem 'less-rails'
+gem 'filepicker-rails'
 
 
 # Gems used only for assets and not required

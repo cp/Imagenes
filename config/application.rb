@@ -58,5 +58,9 @@ module Imagenes
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+    
+    # Filepicker.io API key
+    config.filepicker_rails.api_key = 'A1bpRwFu5Q3WSKuv4vYJMz'
+    
   end
 end

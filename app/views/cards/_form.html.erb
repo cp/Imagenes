@@ -11,10 +11,10 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :type %><br />
-    <%= f.text_field :type %>
-  </div>
+  <div>
+    <%= f.label :mediasrc, "Select media:" %>
+    <%= f.filepicker_field :mediasrc %>
+  </div><br>
   <div class="field">
     <%= f.label :caption %><br />
     <%= f.text_field :caption %>

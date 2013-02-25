@@ -5,21 +5,6 @@
   <%= @card.belongs_to %>
 </p>
 
-<p>
-  <b>Type:</b>
-  <%= @card.type %>
-</p>
+<img src="<%= @card.mediasrc %>" width="400" height="400"><br>
 
-<p>
-  <b>Caption:</b>
-  <%= @card.caption %>
-</p>
-
-<p>
-  <b>Mediasrc:</b>
-  <%= @card.mediasrc %>
-</p>
-
-
-<%= link_to 'Edit', edit_card_path(@card) %> |
-<%= link_to 'Back', cards_path %>
+<b><%= @card.caption %><b>
